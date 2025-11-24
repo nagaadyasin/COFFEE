@@ -1,0 +1,154 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.dark {
+  background-color: rgba(64, 1, 1, 0.82);
+  color: rgba(5, 2, 2, 1);
+  height: 100vh;
+}
+.light {
+  background-color: #100104ff;
+  color: rgba(245, 238, 238, 1);
+  height: 100vh;
+}
+button {
+  right: 10px;
+  top: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+header {
+  position: fixed;
+  width: 100%;
+
+  z-index: 5;
+}
+.navbar .nav-logo .logo-text {
+  color: white;
+  font-weight: bold;
+}
+.navbar .nav-menu .nav-link {
+  color: rgb(13, 12, 12);
+  padding: 5px 18px;
+  color: white;
+  /* transition: 0.3s ease;
+  border-radius: 90px;
+}
+.navbar .nav-menu .nav-link:hover {
+  color: #3b141c;
+  background: orange;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .nav-menu {
+  display: flex;
+  gap: 10px;
+  right: 25px;
+  padding: 20px;
+}
+.section {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.hero-section {
+  min-height: 100vh;
+}
+.hero-section .section-content {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+.hero-section .hero-detail .title {
+  color: orange;
+  font-family: "Miniver", cursive;
+}
+/* .hero-section .hero-detail .subtitle .title .button {
+  font-size: var(--font-size-xl);
+  margin-top: 8px;
+  max-width: 70%;
+  margin-left: 50px; */
+
+/* .description {
+  font-size: 10px;
+  margin-left: 100px;
+  display: flex;
+}
+.title {
+  margin-left: 100px;
+  display: flex;
+}
+.subtitle {
+  margin-left: 100px;
+  display: flex;
+}
+.button {
+  display: flex;
+  gap: 50px;
+}
+
+.hero-image {
+  height: 400px;
+  display: flex;
+  width: 300px;
+  position: fixed;
+  right: 150px;
+}
+.to {
+  margin-left: 150px;
+  gap: 20px;
+  color: aliceblue;
+  background: orange;
+  color: white;
+  padding: 10px;
+}
+.too {
+  margin-left: 150px;
+  gap: 20px;
+  color: aliceblue;
+  background: orange;
+  color: white;
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  :root {
+    --font-size-m: 1rem;
+    --font-size-1: 1.3rem;
+    --font-size-xl: 1.5rem;
+    --font-size-xxl: 1.3rem;
+  }
+  .navbar .nav-menu {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+
+    background: rgba(13, 11, 11, 1);
+  }
+  .navbar .nav-menu nav-link {
+    display: block;
+    margin-top: 17px;
+    font-size: 20px;
+  } */
+
