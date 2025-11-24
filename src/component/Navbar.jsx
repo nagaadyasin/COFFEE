@@ -3,7 +3,7 @@ import { Moon } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-4 bg-black/40 backdrop-blur-lg fixed w-full z-50">
+    <nav className="flex justify-between items-center p-4 bg-black/40 backdrop-blur-lg fixed w-full z-50 text-white">
       <h2 className="text-xl font-bold text-orange-400">☕ Coffee</h2>
 
       <ul className="flex gap-6 items-center">
